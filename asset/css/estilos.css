@@ -1,0 +1,22 @@
+/* estilos generales */
+.texto-alig-left{
+  text-align: left !important;
+}
+.parallax-full-screen{
+  height: 100vh !important;
+}
+.input-border-radius{
+  border-radius: 40px;
+}
+.padding-todo-0{
+  padding: 0 !important;
+}
+#nuestroservicios h4{
+  color: #ee6e73 !important;
+}
+/* medias */
+@media (max-width: 767px){
+  .texto-parallax{
+    font-size: 3.2rem !important;
+  }
+}

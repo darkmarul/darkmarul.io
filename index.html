@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Materialize Test</title>
+    <!--Import css-->
+    <link href="asset/css/estilos.css" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -12,15 +14,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-    <div class="parallax-container">
+    <!-- Header navbar inicio -->
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Recomendados</a>
+            </li>
+            <li>
+              <a href="#">Promociones</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- parallax inicio -->
+    <div class="parallax-container center valign-wrapper parallax-full-screen ">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h1 class="white-text texto-parallax">Alojamientos por todo el mundo</h1>
+          </div>
+        </div>
+        <div class="row white z-depth-3 input-border-radius">
+          <div class="input-field col s12  ">
+            <i class="Small material-icons prefix ">search</i>
+            <input type="text" id="autocomplete-input" class="autocomplete white-text">
+            <label for="autocomplete-input white-text">Search</label>
+          </div>
+        </div>
+      </div>
       <div class="parallax">
-        <img src="asset/img/inicio_fondo.jpg">
+        <img  src="asset/img/living-room-2732939_1920.jpg">
       </div>
     </div>
-    <div class="container">
-      <h1>Demo</h1>
+    <!-- parallax fin -->
+    <div class="row ">
+      <div class="container z-depth-3" id="nuestroservicios">
+        <div class="col s12">
+          <h4>Conoce nuestros servicios</h2>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel z-depth-1 padding-todo-0">
+            <div class="row valign-wrapper">
+              <div class="col s12 m5">
+                <img class="responsive-img" src="asset/img/living-room-2569325_640.jpg">
+              </div>
+              <div class="col s12 m7">
+                <p class="black-text">Alojamientos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel z-depth-1 padding-todo-0">
+            <div class="row valign-wrapper">
+              <div class="col s12 m5">
+                <img class="responsive-img" src="asset/img/cuisine-2248567_640.jpg">
+              </div>
+              <div class="col s12 m7">
+                <p class="black-text">Restaurantes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel z-depth-1 padding-todo-0">
+            <div class="row valign-wrapper">
+              <div class="col s12 m5">
+                <img class="responsive-img" src="asset/img/airport-2373727_640.jpg">
+              </div>
+              <div class="col s12 m7">
+                <p class="black-text">Transporte</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+
+
+    <!-- Scripts -->
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
