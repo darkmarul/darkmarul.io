@@ -14,6 +14,31 @@
 #nuestroservicios h4{
   color: #ee6e73 !important;
 }
+/* cambio del color del input al estar activo */
+.input-field:hover{
+    color: #ee6e73 !important;
+    cursor: pointer;
+}
+.fondo-nombre-departamento{
+  background-color:  #ee6e73 !important;
+  padding: 5px !important;
+}
+.padding-card{
+  padding: 10px !important;
+}
+.star-icon{
+  color: #f05060;
+}
+.card-image img{
+  height: 250px !important;
+}
+.texto-alojamientos h4{
+  color: #ee6e73 !important;
+}
+.texto-alojamientos h4 small{
+  font-size: 20px;
+  color: #f08f8f;
+}
 /* medias */
 @media (max-width: 767px){
   .texto-parallax{
